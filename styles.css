@@ -19,6 +19,7 @@ header {
     /* opacity: 80%; */
     background-size: cover;
     position: relative;
+    border-bottom: solid white 3px;
 }
 
 /* header > .container {
@@ -149,6 +150,7 @@ header {
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 2px;
     font-size: 12px;
+    border: solid white 1px;
 }
 
 .btn::before {
@@ -262,9 +264,13 @@ hr {
 }
 
 /* "CREATIONS" section */
+.creations {
+    background: black
+}
+
 .section-heading h4 {
     text-transform: uppercase;
-    color: black;
+    color: white;
     line-height: 0;
     font-family: sans-serif;
     font-weight: 300;
@@ -282,6 +288,7 @@ hr {
 footer {
     background-color: black;
     color: white;
+    border-top: solid 3px white;
 }
 
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
