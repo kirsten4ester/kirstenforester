@@ -1,10 +1,7 @@
  /* ---  GLOBAL CLASSES --- */
-body {
-    cursor: pointer;
-}
-
- a {
+a {
     color: #fff !important;
+    cursor: pointer;
 }
 
 p {
