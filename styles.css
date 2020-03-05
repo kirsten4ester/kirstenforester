@@ -1,6 +1,9 @@
  /* ---  GLOBAL CLASSES --- */
 a {
     color: #fff !important;
+}
+
+a:hover {
     cursor: pointer;
 }
 
