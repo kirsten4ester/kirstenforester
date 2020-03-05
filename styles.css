@@ -8,7 +8,7 @@ p {
 }
 
 section {
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
  /* ---  HEADER --- */
@@ -146,7 +146,7 @@ header {
     border: solid white 1px;
 }
 
-.btn::before {
+/* .btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -155,11 +155,11 @@ header {
     height: 100%;
     background: transparent;
     transition: all 650ms;
-}
-
+} */
+/* 
 .ntm:hover::before {
     left: 100%;
-}
+} */
 
  /* ---  ABOUT --- */
 .about {
@@ -200,6 +200,7 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 10px;
+    padding-top: 30px;
 }
 
 .creations p {
@@ -256,7 +257,7 @@ ul {
 }
 
 hr {
-    border-top: solid white 6px; 
+    border-top: solid white 4px; 
 }
 
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
