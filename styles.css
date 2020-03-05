@@ -1,5 +1,9 @@
  /* ---  GLOBAL CLASSES --- */
-a {
+body {
+    cursor: pointer;
+}
+
+ a {
     color: #fff !important;
 }
 
@@ -177,9 +181,12 @@ header {
      padding-bottom: 20px;
  }
 
- p {
-     font-size: 14px;
-     line-height: 25px;
+ .about p {
+     font-size: 15px;
+     line-height: 30px;
+     font-variant: small-caps;
+     letter-spacing: 1px;
+     word-spacing: 5px;
  }
 
  .about img {
@@ -214,10 +221,7 @@ header {
 }
 
 .item-desc {
-    padding-top: 50px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 50px 20px;
     color: white;
     margin: 0 auto;
 }
