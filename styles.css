@@ -3,9 +3,9 @@ a {
     color: #fff !important;
 }
 
-a:hover {
+/* a:hover {
     cursor: pointer;
-}
+} */
 
 p {
     margin: 0;
