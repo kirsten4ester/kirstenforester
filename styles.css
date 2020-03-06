@@ -211,7 +211,8 @@ header {
 }
 
 .creations p {
-    margin-top: 30px;
+    margin: 0 auto;
+    padding-bottom: 10px;
     color: white;
     font-variant: small-caps;
     font-size: 15px;
@@ -220,8 +221,8 @@ header {
     text-align: justify;
 }
 
-.item-desc {
-    padding: 50px 20px;
+.creations .item-desc {
+    padding: 20px;
     color: white;
     margin: 0 auto;
 }
@@ -282,13 +283,13 @@ hr {
 
     .creations h4 {
         font-size: 22px;
-        /* display: none; */
+    }
+    .connect h1 {
+        font-size: 18px;
     }
 
-    /* .item-desc {
-        padding: 50px 20px;
-    } */
  }
+
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
  @media (min-width: 576px) {
     .navbar-brand{
@@ -300,13 +301,9 @@ hr {
         right: 25px;
     }
 
-    h4 {
-        overflow: hidden;
-    }
-
-    /* .item-desc {
+    .item-desc {
         padding: 50px 20px;
-    } */
+    }
  }
 
 /* breakpoint for med devices.. for tablets = 768px+  */
