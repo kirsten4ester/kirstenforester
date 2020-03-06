@@ -269,6 +269,26 @@ hr {
     border-top: solid white 4px; 
 }
 
+
+@media (min-width: 375px) {
+    .navbar-brand{
+        max-width: 150px;
+    }
+
+    .hamburger-menu {
+        top: 35px;
+        right: 25px;
+    }
+
+    .creations h4 {
+        font-size: 22px;
+        /* display: none; */
+    }
+
+    /* .item-desc {
+        padding: 50px 20px;
+    } */
+ }
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
  @media (min-width: 576px) {
     .navbar-brand{
@@ -280,9 +300,13 @@ hr {
         right: 25px;
     }
 
-    .item-desc {
-        padding: 50px 20px;
+    h4 {
+        overflow: hidden;
     }
+
+    /* .item-desc {
+        padding: 50px 20px;
+    } */
  }
 
 /* breakpoint for med devices.. for tablets = 768px+  */
