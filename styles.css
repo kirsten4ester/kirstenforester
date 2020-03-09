@@ -266,43 +266,64 @@ ul {
     list-style-type: none;
 }
 
+li {
+    display: inline-block;
+}
+
 hr {
     border-top: solid white 4px; 
 }
 
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .navbar-brand{
         max-width: 150px;
     }
 
     .hamburger-menu {
-        top: 35px;
-        right: 25px;
+        top: 20px;
+        right: 10px;
     }
 
     .creations h4 {
         font-size: 22px;
     }
+
+    header {
+        height: 30vh;
+    }
+
     .connect h1 {
         font-size: 18px;
+    }
+
+    li {
+        display: block;
     }
 
  }
 
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
- @media (min-width: 576px) {
+ @media (max-width: 576px) {
     .navbar-brand{
         max-width: 150px;
     }
 
     .hamburger-menu {
-        top: 35px;
-        right: 25px;
+        top: 20px;
+        right: 10px;
     }
 
     .item-desc {
         padding: 50px 20px;
+    }
+
+    header {
+        height: 30vh;
+    }
+
+    li {
+        display: block;
     }
  }
 
