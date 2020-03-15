@@ -185,6 +185,10 @@ header {
     margin: 0 auto;
 }
 
+.creations .item-desc a {
+    margin: 10px 20px;
+}
+
 iframe {
     width: 100%;
 }
@@ -222,7 +226,6 @@ iframe {
 
 .creations .box .details .content {
     position: absolute;
-    
     left: 40%;
     top: 40%; 
     transform: translateY(-50%);
@@ -248,13 +251,18 @@ iframe {
 }
 
 /* --- CONNECT SECTION --- */
- .connect {
+.connect {
     background-color: black;
     font-family: 'montserrat', sans-serif;
-    color: white;
+    color: #fff;
+    /* margin: auto;
+    padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.dev-info h1 {
+.connect h1 {
     padding-top: 30px;
     font-size: 20px;
     font-weight: 300;
@@ -262,33 +270,102 @@ iframe {
     letter-spacing: 10px;
 }
 
-.connectLinks {
+.connect .connectLinks a {
     font-size: 14px;
-    text-align: center;
     letter-spacing: 10px;
-    word-spacing: 50px;
+    text-align: center;
     font-variant: small-caps;
-    line-height: 40px;
-}
-
-.connectLinks a:hover {
     text-decoration: none;
-    font-weight: 900;
-    font-size: 18px;
-}
 
-ul { 
-    list-style-type: none;
-}
-
-li {
     display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* padding: 20px; */
+    margin: 10px;
+    border: none;
 }
+/* .connect {
+    font-family: 'montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+  }
+  
+  .connect h1 {
+      padding-top: 30px;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+  }
+  
+  .connect a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    border: solid #fff 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px;
+    
+    font-size: 9px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: none;
+  }
+  
+  .connect a:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background-color: black;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    transform: scaleY(1);
+    transition-delay: 0.5s;
+  }
+  
+  .connect a:hover:before {
+    transform: scaleY(0);
+  }
+  
+  .connect a:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background-color: black;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    transform: scaleX(1);
+  }
+  
+  .connect a:hover:after {
+    transform: scaleX(0);
+  }
+  
+  .connect a span {
+    position: relative;
+    z-index: 3;
+  } */
 
 hr {
     border-top: solid white 4px; 
 }
-
 
 @media (max-width: 375px) {
     .navbar-brand{
@@ -312,11 +389,12 @@ hr {
         font-size: 18px;
     }
 
-    li {
+    .connectLinks a {
         display: block;
     }
 
  }
+
 
 /* 576+ =  breakpoint bootstrap uses for phones on landscape */
  @media (max-width: 576px) {
@@ -337,7 +415,7 @@ hr {
         height: 30vh;
     }
 
-    li {
+    .connectLinks a {
         display: block;
     }
  }
