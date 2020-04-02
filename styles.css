@@ -156,6 +156,7 @@ header {
 .creations {
     background-color: black;
     font-family: 'montserrat', sans-serif;
+    color: white;
 }
 
 .section-heading h4 {
@@ -169,7 +170,7 @@ header {
 }
 
 .creations p {
-    margin: 0 auto;
+    margin: 20px auto;
     padding-bottom: 10px;
     color: white;
     font-variant: small-caps;
@@ -177,6 +178,16 @@ header {
     letter-spacing: 1px;
     word-spacing: 2px;
     text-align: justify;
+}
+
+.creations .p-centered {
+    text-align: center;
+}
+
+.creations h5 {
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .creations .item-desc {
