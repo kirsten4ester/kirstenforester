@@ -160,7 +160,7 @@ header {
 }
 
 .section-heading h4 {
-    line-height: 0;
+    /* line-height: 0; */
     color: white;
     font-size: 25px;
     font-weight: 300;
@@ -296,6 +296,7 @@ iframe {
     margin: 10px;
     border: none;
 }
+
 /* .connect {
     font-family: 'montserrat', sans-serif;
     background-color: black;
@@ -389,7 +390,11 @@ hr {
     }
 
     .creations h4 {
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .remove-space {
+        top: -100px;
     }
 
     header {
@@ -426,8 +431,25 @@ hr {
         height: 30vh;
     }
 
+    .creations h4 {
+        font-size: 22px;
+        margin-bottom: 0 !important;
+    }
+
+    .remove-space {
+        top: -90px;
+    }
+
     .connectLinks a {
         display: block;
+    }
+ }
+
+ @media (max-width: 1008px) {
+    h2 {
+        letter-spacing: none;
+        height: auto;
+        width: auto;
     }
  }
 
