@@ -150,6 +150,8 @@ header {
  .about img {
      margin-top: 20px;
      margin-bottom: 40px;
+     max-height: 350px;
+     max-width: auto;
  }
 
 /* "CREATIONS" section */
